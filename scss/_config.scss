@@ -2,8 +2,8 @@ $primary-color: rgb(40, 66, 82);
 $secondary-color: rgb(145, 139, 189);
 $tertiary_color: rgb(94, 94, 94);
 $show-home-image: true;
-$home_image: url(../../img/103.JPG);
-$prof_image: url(../../img/Julma.jpg);
+$home-image: url(../../img/103.JPG);
+$prof-image: url(../../img/itsame.JPG);
 $background-opacity: 0.7;
 
 @mixin easeOut {
@@ -13,7 +13,7 @@ $background-opacity: 0.7;
 @mixin background {
   @if $show-home-image {
     &#bg-img {
-      background: $home_image no-repeat center fixed;
+      background: $home-image no-repeat center fixed;
       background-size: cover;
 
       &:after {
