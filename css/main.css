@@ -144,7 +144,7 @@ body {
   font-family: Corbel, "Lucida Grande", "Arial";
   line-height: 1.5; }
   body#bg-img {
-    background: url(/img/103.JPG) no-repeat center fixed;
+    background: url(/img/103.jpg) no-repeat center fixed;
     background-size: cover; }
     body#bg-img:after {
       content: "";
