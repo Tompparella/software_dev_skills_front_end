@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A project in front-end develpment.",
   "main": "index.js",
-  "homepage": "https://tompparella.github.io/my_portfolio",
+  "homepage": "https://github.com/Tompparella/my-portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
