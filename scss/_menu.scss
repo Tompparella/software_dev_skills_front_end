@@ -104,7 +104,7 @@
     }
 
     &.current > a {
-      color: rgb(255, 185, 255);
+      color: $tertiary-color;
       &:hover {
         color: $secondary-color;
       }
