@@ -52,7 +52,7 @@ main {
   padding: 4rem;
   //height: 100%;
   min-height: calc(
-    100vh-60px
+    100vh - 60px
   ); //This line of code sticks the footer to the bottom of the page
 
   .icons {
@@ -134,6 +134,32 @@ main {
       opacity: 0.5;
       border-color: $secondary-color;
       @include easeOut;
+    }
+  }
+}
+
+// Contact-page settings
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    @include easeOut;
+    &:hover {
+      padding: 0, 5rem 1.5rem;
+      background: rgba($secondary-color, 0.5);
+      color: set-text-color($secondary-color);
+
+      span {
+        color: set-text-color($secondary-color);
+      }
     }
   }
 }
