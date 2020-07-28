@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/img/itsame.jpg) no-repeat center;
+      background: url(../img/itsame.jpg) no-repeat center;
       background-size: cover;
       border-radius: 50%;
       border: solid 3px #918bbd; }
@@ -144,7 +144,7 @@ body {
   font-family: Corbel, "Lucida Grande", "Arial";
   line-height: 1.5; }
   body#bg-img {
-    background: url(/img/103.jpg) no-repeat center fixed;
+    background: url(../img/103.jpg) no-repeat center fixed;
     background-size: cover; }
     body#bg-img:after {
       content: "";
