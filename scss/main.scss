@@ -11,7 +11,7 @@ body {
   color: ($tertiary-color);
   height: 100%;
   margin: 0;
-  font-family: Corbel, "Lucida Grande", "Arial";
+  font-family: "Gill Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -146,11 +146,10 @@ main {
   align-items: center;
   margin-top: 1rem;
 
-  div {
+  .email-box {
     font-size: 2rem;
     border: 3px #fff solid;
-    padding: 1rem 2rem;
-    margin-bottom: 1rem;
+    padding: 1.3rem 1.5rem;
     @include easeOut;
     &:hover {
       padding: 0, 5rem 1.5rem;
@@ -161,6 +160,12 @@ main {
         color: set-text-color($secondary-color);
       }
     }
+  }
+  .icons {
+    border: 3px #fff solid;
+    font-size: 2rem;
+    padding: 0.6rem 2rem;
+    margin-bottom: 1rem;
   }
 }
 
