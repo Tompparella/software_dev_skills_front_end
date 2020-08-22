@@ -53,9 +53,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background: url(../img/itsame.jpg) no-repeat center;
+      width: 300px;
+      height: 300px;
+      background: url(../img/pic_2.JPG) no-repeat center;
       background-size: cover;
       border-radius: 50%;
       border: solid 3px #918bbd; }
@@ -141,10 +141,10 @@ body {
   color: #ffb9ff;
   height: 100%;
   margin: 0;
-  font-family: Corbel, "Lucida Grande", "Arial";
+  font-family: "Gill Sans", sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/103.JPG) no-repeat center fixed;
+    background: url(../img/site_background_image.JPG) no-repeat center fixed;
     background-size: cover; }
     body#bg-img:after {
       content: "";
@@ -206,7 +206,7 @@ main {
   grid-template-columns: repeat(3 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
-    width: 250px;
+    width: 300px;
     height: auto;
     margin: auto;
     border-radius: 50%;
@@ -234,11 +234,12 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
-    width: 100%;
-    border: 3px #fff solid; }
+    height: 200px;
+    width: auto;
+    border-radius: 10%; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #918bbd;
@@ -250,18 +251,22 @@ main {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1rem; }
-  .boxes div {
+  .boxes .email-box {
     font-size: 2rem;
     border: 3px #fff solid;
-    padding: 1rem 2rem;
-    margin-bottom: 1rem;
+    padding: 1.3rem 1.5rem;
     transition: all 0.3s ease-out; }
-    .boxes div:hover {
+    .boxes .email-box:hover {
       padding: 0, 5rem 1.5rem;
       background: rgba(145, 139, 189, 0.5);
       color: #000; }
-      .boxes div:hover span {
+      .boxes .email-box:hover span {
         color: #000; }
+  .boxes .icons {
+    border: 3px #fff solid;
+    font-size: 2rem;
+    padding: 0.6rem 2rem;
+    margin-bottom: 1rem; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
