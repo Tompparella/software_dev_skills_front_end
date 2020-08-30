@@ -1,6 +1,6 @@
 # My portfolio
 
-# Tommi Kunnari 22.8.2020
+# Tommi Kunnari 30.8.2020
 
 Contains my work for a course in front-end development.
 
@@ -9,3 +9,5 @@ The page is deployed via github pages, and to deploy the latest version the comm
 
 The page is designed with site responsiveness in mind, meaning that it resizes and changes based on the user devices' screen size.
 The site is deployed in github pages and can be accessed from url: https://tompparella.github.io/my-portfolio/
+
+Presentation video: https://lut-my.sharepoint.com/:v:/g/personal/tommi_kunnari_student_lut_fi/EdJTmD09jWVEvLOj_tnreXsBmyuQr8J6sOnmOYlBzZVB9w?e=SoN7lj
